@@ -1,28 +1,40 @@
-import { Card } from './Card';
-import './CardList.css';
+import Card from "./Card";
+import { useList } from "./useList";
+import "./CardList.css";
 
-export const CardList = ({
-  list,
-  onItemTitleChange,
-  onItemToggle,
-  onItemDelete,
-}) => {
+function CardList({ initialItems }) {
+  const {
+    items,
+    addItem,
+    updateItemTitle,
+    toggleItemDone,
+    deleteItem,
+  } = useList(initialItems);
+
   return (
-    <ul className="card-list">
-      {list.map(({ id, title, done }) => {
-        return (
-          <li key={id} className="card-list__item">
+    <section className="card-list-wrapper">
+      <ul className="card-list">
+        {items.map((item) => (
+          <li key={item.id} className="card-list__item">
             <Card
-              id={id}
-              title={title}
-              done={done}
-              onTitleChange={onItemTitleChange}
-              onToggle={onItemToggle}
-              onDelete={onItemDelete}
+              item={item}
+              onChangeTitle={updateItemTitle}
+              onToggleDone={toggleItemDone}
+              onDelete={deleteItem}
             />
           </li>
-        );
-      })}
-    </ul>
+        ))}
+      </ul>
+
+      <button
+        type="button"
+        className="create-button"
+        onClick={addItem}
+      >
+        Новый элемент
+      </button>
+    </section>
   );
-};
+}
+
+export default CardList;

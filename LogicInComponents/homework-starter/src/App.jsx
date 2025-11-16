@@ -1,24 +1,19 @@
-import { CardList } from './CardList';
-import { useList } from './useList';
-import './App.css';
+import CardList from "./CardList";
+import "./App.css";
 
-export const App = () => {
-  const { list, createItem, setItemTitle, toggleItem, deleteItem } = useList();
+const initialItems = [
+  { id: 1, title: "Хлеб", done: false },
+  { id: 2, title: "Молоко", done: true },
+  { id: 3, title: "Сметана", done: false },
+];
 
+function App() {
   return (
-    <div className="app">
-      <h1>Список покупок</h1>
-
-      <CardList
-        list={list}
-        onItemTitleChange={setItemTitle}
-        onItemToggle={toggleItem}
-        onItemDelete={deleteItem}
-      />
-
-      <button className="create-button" onClick={createItem}>
-        Новый элемент
-      </button>
-    </div>
+    <main className="app">
+      <h1 className="app__title">Список покупок</h1>
+      <CardList initialItems={initialItems} />
+    </main>
   );
-};
+}
+
+export default App;
