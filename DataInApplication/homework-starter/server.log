@@ -1,0 +1,9 @@
+
+> server@0.0.0 dev
+> tsx watch src/server.ts
+
+Server started on port 4000
+14:14:49 [tsx] change in ./src/database/Notes.ts Restarting...
+cServer started on port 4000
+14:14:59 [tsx] change in ./src/database/Notes.ts Restarting...
+cServer started on port 4000

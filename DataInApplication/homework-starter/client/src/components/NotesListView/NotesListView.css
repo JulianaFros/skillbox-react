@@ -1,0 +1,38 @@
+.note-list-view {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.note-list-view__state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.note-list-view__error {
+  color: #d32f2f;
+  font-size: 16px;
+  text-align: center;
+}
+
+.note-list-view__empty {
+  color: #757575;
+  font-size: 16px;
+  text-align: center;
+}

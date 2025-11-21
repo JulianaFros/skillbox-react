@@ -1,0 +1,32 @@
+{
+  "4080a8c6-7f64-4a27-8dbd-85e6c7a15f28": {
+    "id": "4080a8c6-7f64-4a27-8dbd-85e6c7a15f28",
+    "email": "optimisist@gmail.com",
+    "username": "user"
+  },
+  "e015432b-159b-445e-b26c-70b3a012f7ec": {
+    "id": "e015432b-159b-445e-b26c-70b3a012f7ec",
+    "email": "frosina2015@yandex.ru",
+    "username": "Никита"
+  },
+  "1b5b35f0-8b8c-4257-977d-6026a6b4496b": {
+    "id": "1b5b35f0-8b8c-4257-977d-6026a6b4496b",
+    "email": "admin@yandex.ru",
+    "username": "Белуга"
+  },
+  "f2735467-33a6-4792-8cee-320bed48d869": {
+    "id": "f2735467-33a6-4792-8cee-320bed48d869",
+    "email": "test@test.com",
+    "username": "testuser"
+  },
+  "78a2f3d3-aed6-4b0e-a2ba-a704cec25d18": {
+    "id": "78a2f3d3-aed6-4b0e-a2ba-a704cec25d18",
+    "email": "newuser@test.com",
+    "username": "newuser123"
+  },
+  "3873129c-c290-429b-86a7-56d150c24ade": {
+    "id": "3873129c-c290-429b-86a7-56d150c24ade",
+    "email": "beluga@yandex.ru",
+    "username": "Белуга"
+  }
+}

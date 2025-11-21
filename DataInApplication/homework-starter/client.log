@@ -1,0 +1,36 @@
+
+  VITE v5.4.21  ready in 376 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+14:10:35 [vite] hmr update /src/App.tsx
+14:10:37 [vite] hmr update /src/components/NoteForm/NoteForm.tsx
+14:10:48 [vite] hmr update /src/components/NoteForm/NoteForm.tsx
+14:10:48 [vite] hmr update /src/App.tsx
+14:12:24 [vite] hmr update /src/App.tsx
+14:12:26 [vite] hmr update /src/components/NoteForm/NoteForm.tsx
+14:12:28 [vite] hmr update /src/components/NoteForm/NoteForm.css
+14:12:30 [vite] hmr update /src/App.css
+14:12:32 [vite] hmr update /src/components/NotesListView/NotesListView.css
+14:12:43 [vite] hmr update /src/App.tsx
+14:13:49 [vite] hmr update /src/App.tsx
+14:14:00 [vite] hmr update /src/components/NotesListView/NotesListView.tsx
+14:14:51 [vite] hmr update /src/App.tsx
+14:14:59 [vite] hmr update /src/App.css
+14:14:59 [vite] hmr update /src/App.tsx
+14:14:59 [vite] hmr update /src/components/NotesListView/NotesListView.tsx
+14:14:59 [vite] hmr update /src/components/NotesListView/NotesListView.css
+14:14:59 [vite] hmr update /src/components/NoteForm/NoteForm.tsx
+14:14:59 [vite] hmr update /src/components/NoteForm/NoteForm.css
+14:16:50 [vite] hmr update /src/App.tsx
+14:16:51 [vite] hmr update /src/components/NoteForm/NoteForm.tsx
+14:16:54 [vite] hmr update /src/App.tsx
+14:16:56 [vite] hmr update /src/App.tsx
+14:16:58 [vite] hmr update /src/components/RegisterForm/RegisterForm.tsx
+14:17:00 [vite] hmr update /src/components/LoginForm/LoginForm.tsx
+14:17:07 [vite] hmr update /src/App.tsx
+14:17:20 [vite] hmr update /src/App.tsx
+14:17:20 [vite] hmr update /src/App.tsx
+14:17:20 [vite] hmr update /src/components/RegisterForm/RegisterForm.tsx
+14:17:20 [vite] hmr update /src/components/NoteForm/NoteForm.tsx
+14:17:20 [vite] hmr update /src/components/LoginForm/LoginForm.tsx
